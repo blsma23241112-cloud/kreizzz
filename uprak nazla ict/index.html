@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lagi & Lagi - UMKM</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', sans-serif;
+        }
+
+        body {
+            background-color: #ffffff;
+            color: #333;
+        }
+
+        header {
+            background-color: #c40000;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        header img {
+            width: 120px;
+            margin-bottom: 10px;
+        }
+
+        header h1 {
+            font-size: 32px;
+            margin-bottom: 5px;
+        }
+
+        header p {
+            font-style: italic;
+            font-size: 16px;
+        }
+
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        section h2 {
+            color: #c40000;
+            margin-bottom: 20px;
+            font-size: 26px;
+        }
+
+        #profil p {
+            max-width: 700px;
+            margin: 10px auto;
+            line-height: 1.6;
+        }
+
+        #produk {
+            background-color: #fff5f5;
+        }
+
+        .produk-container {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .produk-item {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+            padding: 20px;
+            width: 280px;
+            transition: transform 0.3s ease;
+        }
+
+        .produk-item:hover {
+            transform: scale(1.05);
+        }
+
+        .produk-item img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+
+        .produk-item h3 {
+            color: #c40000;
+            margin-bottom: 10px;
+        }
+
+        .harga {
+            margin-top: 10px;
+            font-weight: bold;
+            color: #000;
+        }
+
+        footer {
+            background-color: #c40000;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        footer iframe {
+            margin: 15px 0;
+            border-radius: 10px;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+        .copyright {
+            margin-top: 15px;
+            font-size: 14px;
+            border-top: 1px solid rgba(255,255,255,0.3);
+            padding-top: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .produk-container {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <img src="kriezz logo uprak.png" alt="Logo Lagi & Lagi">
+        <h1>Kreizz</h1>
+        <p>Lagi & lagi</p>
+    </header>
+
+    <!-- PROFIL -->
+    <section id="profil">
+        <h2>Tentang Kami</h2>
+        <p>
+            Kreizz adalah usaha kuliner yang menyediakan berbagai macam camilan lezat tradisional dengan kualitas terbaik 
+            dan harga terjangkau untuk semua kalangan.
+        </p>
+    </section>
+
+    <!-- PRODUK -->
+    <section id="produk">
+        <h2>Produk Kami</h2>
+
+        <div class="produk-container">
+
+            <div class="produk-item">
+                <img src="basreng daun jeruk.jpg" alt="Basreng Daun Jeruk">
+                <h3>Basreng Daun Jeruk</h3>
+                <p>Basreng renyah dengan taburan bumbu pedas dan daun jaruk yang bikin nagih.</p>
+                <p class="harga">Rp2.000 — Rp20.000</p>
+            </div>
+
+            <div class="produk-item">
+                <img src="keripik kaca.jpg" alt="Keripik Singkong Balado">
+                <h3>Keripik Kaca</h3>
+                <p>Renyah, gurih, dan pedas dalam satu gigitan yang sempurna.</p>
+                <p class="harga">Rp2.000 — Rp20.000</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <h2>Kontak Usaha</h2>
+        <p><strong>Alamat:</strong> Jl. Ceger Raya No.63B 4, RW.2, Jurang Mangu Barat, Kec. Pd. Aren, Kota Tangerang Selatan, Banten 15222</p><br>
+
+        
+
+        <p><strong>WhatsApp:</strong> 0812-9815-7017</p>
+
+        <div class="copyright">
+            <p>&copy; 2026 Kreizz. All Rights Reserved.</p>
+            <p>Dibuat oleh: Nazla Bilqis</p>
+        </div>
+    </footer>
+
+</body>
+</html>
